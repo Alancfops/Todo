@@ -1,0 +1,14 @@
+@media (max-width: 680px) {
+  body {
+    flex-direction: column;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .content {
+    width: 100%;
+  }
+}

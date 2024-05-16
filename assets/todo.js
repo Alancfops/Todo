@@ -2,8 +2,8 @@ const localStorageName = 'todo-list-ls';
 
 function validateTask() {
   let values = JSON.parse(localStorage.getItem(localStorageName) || '[]');
-  let inputValue = document.getElementById('input-task');
-  let exist = values.find((j) => j.name == inputValue.value);
+  let inputValue = document.getElementById('input-task').value;
+  let exist = values.find((j) => j.name == inputValue);
   return !exist ? false : true;
 }
 
