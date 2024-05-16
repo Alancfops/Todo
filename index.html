@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="stylesheet" href="./assets/global.css" />
-    <script defer src="./assets/todo.js"></script>
+    <link rel="stylesheet" href="./assets/mobile.css" />
     <title>To Do List</title>
   </head>
   <body>
-    <h1>To Do List</h1>
+    <h1 class="title">To Do List</h1>
     <div class="content">
       <div class="content-item">
         <input
@@ -17,7 +17,7 @@
           placeholder="Digite sua nova tarefa"
           id="input-task"
         />
-        <button id="btn-task" title="Adicionar nova tarefa">
+        <button onclick="newTask()" id="btn-task" title="Adicionar nova tarefa">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -33,12 +33,9 @@
         </button>
       </div>
       <div class="content-list">
-        <ul id="todo-list">
-          <li>teste</li>
-          <li>teste</li>
-          <li>teste</li>
-        </ul>
+        <ul id="todo-list"></ul>
       </div>
     </div>
   </body>
+  <script src="./assets/todo.js"></script>
 </html>
