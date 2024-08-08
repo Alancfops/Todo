@@ -31,6 +31,3 @@ Bem-vindo ao **Lista de Tarefas**, um projeto de site simples que permite aos us
 
 2. **Marcar como Concluída**: 
    - Clique na caixa de seleção ao lado da tarefa para marcá-la como concluída. A tarefa desaparecerá da lista.
-
-3. **Remover Tarefas**: 
-   - Não há ícone de lixeira, pois as tarefas são removidas automaticamente quando marcadas como concluídas.
